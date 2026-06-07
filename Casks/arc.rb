@@ -4,22 +4,22 @@ cask "arc" do
 
   on_macos do
     on_intel do
-      sha256 "ba36f096e3ced0d46ea70a22dc4fc9ec3ff7e394403ba6ddcf480e73346a0e1b"
+      sha256 "2a9792a458e9b1a7829588cbf30982865e0cc00fee4acfc734b5dfc5d98909dc"
       url "https://github.com/Dieg0Code/arc/releases/download/v#{version}/arc_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "e7bf650a6e00c755fa5720881292da9eb6051b8e226949d4a9b3048aa32a4d70"
+      sha256 "63ab5b44a577f610277dd7cb35d77f513b4b3d29dd4637d18f51355de97be5db"
       url "https://github.com/Dieg0Code/arc/releases/download/v#{version}/arc_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "f0a1fb351ed54a8be6f5fb74be5a003207b9f4b678d92549f907c0e325b3aa53"
+      sha256 "dbf6650efa94ee95b7265ab25f7c4cd56e43f8cb06407e99b3e8ce078ece5f15"
       url "https://github.com/Dieg0Code/arc/releases/download/v#{version}/arc_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b0b76a3094dec92791c4ea34da6b5e4355fb776c17ed3db1fe27d0b07ff29e3a"
+      sha256 "ec12e08578fbd3510e0658c829c3fa4e69bce390bdbdc2af095a0e261c64dc93"
       url "https://github.com/Dieg0Code/arc/releases/download/v#{version}/arc_linux_arm64.tar.gz"
     end
   end
